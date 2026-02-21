@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>AI Prompt Generator Hub for Creators</title>
+        <title>YC · AI Prompt Generator Hub for Creators</title>
         <meta
           name="description"
           content="AI Prompt Generator Hub focused on practical prompts for creators: YouTube scripts, hooks, titles, descriptions, and more scenario-based prompt templates."
@@ -19,7 +19,7 @@ export default function HomePage() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="AI Prompt Generator Hub for Creators"
+          content="YC · AI Prompt Generator Hub for Creators"
         />
         <meta
           property="og:description"
@@ -73,9 +73,9 @@ export default function HomePage() {
               </h1>
               <p className="mt-4 max-w-xl text-sm leading-relaxed text-gray-600 sm:text-base">
                 This is a minimal, focused hub for creators who want to use AI
-                prompts without losing their voice. It starts with YouTube
-                script prompts and expands into hooks, titles, descriptions, and
-                other scenario-based prompt templates.
+                prompts without losing their voice. It starts with a dedicated
+                YouTube Script Prompt Generator and expands into hooks, titles,
+                descriptions, and other scenario-based prompt templates.
               </p>
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <Link

@@ -128,7 +128,7 @@ export default function YouTubeScriptPromptGeneratorPage() {
     <>
       <Head>
         <title>
-          YouTube Script Prompt Generator | AI Tools for YouTube Creators
+          YC · YouTube Script Prompt Generator | AI Tools for YouTube Creators
         </title>
         <meta
           name="description"
@@ -146,7 +146,7 @@ export default function YouTubeScriptPromptGeneratorPage() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="YouTube Script Prompt Generator for Creators"
+          content="YC · YouTube Script Prompt Generator for Creators"
         />
         <meta
           property="og:description"
@@ -201,10 +201,11 @@ export default function YouTubeScriptPromptGeneratorPage() {
                 YouTube Script Prompt Generator (Free &amp; Instant)
               </h1>
               <p className="mt-4 max-w-xl text-sm leading-relaxed text-gray-600 sm:text-base">
-                Turn a few inputs into a complete AI prompt you can paste into
-                ChatGPT, Claude, Gemini, or any AI model to get a long-form
-                YouTube script that is built for hooks, retention, and
-                conversions.
+                Use this YouTube Script Prompt Generator to turn a few inputs
+                into a complete AI prompt you can paste into ChatGPT, Claude,
+                Gemini, or any AI model. This YouTube Script Prompt Generator is
+                built for long-form scripts that are optimized for hooks,
+                retention, and conversions.
               </p>
               <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-600 sm:text-base">
                 After you have a solid script, you can move into the{" "}

@@ -830,6 +830,20 @@ Format your answer as a numbered list from 1 to 20.`}
                 </button>
               </form>
             </section>
+
+            <section className="mt-10 rounded-xl border border-dashed border-indigo-200 bg-indigo-50/70 p-4 text-sm text-gray-800">
+              <p>
+                To build a complete video, start with the{" "}
+                <Link
+                  href="/youtube-script-prompt-generator"
+                  className="font-semibold text-indigo-700 underline-offset-2 hover:underline"
+                >
+                  YouTube Script Prompt Generator
+                </Link>{" "}
+                to create the main script prompt, then use this title generator
+                to package that story for clicks and search.
+              </p>
+            </section>
           </section>
         </main>
       </div>
