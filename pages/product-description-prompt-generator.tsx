@@ -122,7 +122,9 @@ export default function ProductDescriptionPromptGeneratorPage() {
   return (
     <>
       <Head>
-        <title>Product Description Prompt Generator</title>
+        <title>
+          Product Description Prompt Generator for Stores, SaaS &amp; Apps
+        </title>
         <meta
           name="description"
           content="Generate product description prompts for websites, marketplaces, and app stores. Turn your product details into a clear brief for ChatGPT."

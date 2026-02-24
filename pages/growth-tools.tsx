@@ -5,10 +5,13 @@ export default function GrowthToolsPage() {
   return (
     <>
       <Head>
-        <title>Growth Tools for YouTube Creators | AI Tool Hub</title>
+        <title>
+          YouTube Growth Tools | AI Prompt Generators for Ideas, Outreach &amp;
+          Growth
+        </title>
         <meta
           name="description"
-          content="Explore growth tools for YouTube: video ideas, automation scripts, faceless channels, Shorts, and systems thinking for long-term growth."
+          content="Find AI prompt tools for YouTube growth — content ideas, automation scripts, storytelling prompts, shorts strategy and workflow tips to grow your channel."
         />
         <meta
           name="keywords"
@@ -22,11 +25,11 @@ export default function GrowthToolsPage() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Growth Tools for YouTube Creators | AI Tool Hub"
+          content="YouTube Growth Tools | AI Prompt Generators for Ideas, Outreach &amp; Growth"
         />
         <meta
           property="og:description"
-          content="Browse YouTube growth tools for ideas, automation, faceless channels, and Shorts."
+          content="Browse YouTube growth tools and AI prompts for ideas, automation scripts, storytelling, Shorts and workflow systems."
         />
       </Head>
 
@@ -63,7 +66,7 @@ export default function GrowthToolsPage() {
         </header>
 
         <main className="mx-auto max-w-6xl px-4 pb-16 pt-12 lg:px-8 lg:pt-16">
-          <section className="grid gap-12 lg:grid-cols-[1.05fr,0.95fr] lg:items-start">
+          <section className="grid gap-12 rounded-2xl bg-white p-6 shadow-sm ring-1 ring-gray-100 lg:grid-cols-[1.05fr,0.95fr] lg:items-start">
             <article className="prose prose-sm max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-indigo-600 prose-strong:text-gray-900">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-indigo-600">
                 Growth Tools
@@ -71,23 +74,78 @@ export default function GrowthToolsPage() {
               <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
                 Tools That Help Your Channel Grow on Purpose, Not by Accident
               </h1>
-              <p>
+              <div className="mt-4 flex flex-wrap items-center gap-2 text-[11px] font-medium text-gray-700">
+                <span className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">
+                  Ideas
+                </span>
+                <span className="text-gray-400">→</span>
+                <span className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">
+                  Scripts
+                </span>
+                <span className="text-gray-400">→</span>
+                <span className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">
+                  Systems
+                </span>
+                <span className="text-gray-400">→</span>
+                <span className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">
+                  Shorts
+                </span>
+                <span className="text-gray-400">→</span>
+                <span className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">
+                  Distribution
+                </span>
+              </div>
+              <div className="mt-4 grid gap-3 text-xs text-gray-700 sm:grid-cols-3">
+                <div className="rounded-lg bg-indigo-50/60 px-3 py-2">
+                  <p className="font-semibold text-indigo-800">Who it is for</p>
+                  <p className="mt-1 text-[11px] text-indigo-900">
+                    Channels that care about long-term growth, not one-off
+                    spikes.
+                  </p>
+                </div>
+                <div className="rounded-lg bg-gray-50 px-3 py-2">
+                  <p className="font-semibold text-gray-900">When to use</p>
+                  <p className="mt-1 text-[11px] text-gray-700">
+                    When you are planning content cycles, systems, and new
+                    formats.
+                  </p>
+                </div>
+                <div className="rounded-lg bg-gray-50 px-3 py-2">
+                  <p className="font-semibold text-gray-900">What you get</p>
+                  <p className="mt-1 text-[11px] text-gray-700">
+                    Prompts that help you design ideas, systems, and Shorts that
+                    compound over time.
+                  </p>
+                </div>
+              </div>
+              <p className="mt-6">
                 Growth is a byproduct of a clear strategy executed consistently.
-                This page collects tools that support that strategy:{" "}
-                <Link href="/youtube-video-idea-generator">
-                  Video Idea Generator
-                </Link>{" "}
-                for mapping your content calendar,{" "}
-                <Link href="/youtube-automation-script-prompt">
-                  Automation Script Prompts
-                </Link>{" "}
-                for turning ideas into systems, and{" "}
-                <Link href="/faceless-youtube-script-prompt">
-                  Faceless YouTube Script Prompts
-                </Link>{" "}
-                for channels that are built to scale beyond a single on-camera
-                personality.
+                This page collects tools that support that strategy at each
+                stage of the journey.
               </p>
+              <ul>
+                <li>
+                  Map your content calendar with the{" "}
+                  <Link href="/youtube-video-idea-generator">
+                    Video Idea Generator
+                  </Link>
+                  .
+                </li>
+                <li>
+                  Turn ideas into systems with{" "}
+                  <Link href="/youtube-automation-script-prompt">
+                    Automation Script Prompts
+                  </Link>
+                  .
+                </li>
+                <li>
+                  Plan scalable formats using{" "}
+                  <Link href="/faceless-youtube-script-prompt">
+                    Faceless YouTube Script Prompts
+                  </Link>{" "}
+                  so the channel is not limited to one on-camera personality.
+                </li>
+              </ul>
               <p>
                 You can use the{" "}
                 <Link href="/youtube-video-idea-generator">
@@ -250,28 +308,24 @@ export default function GrowthToolsPage() {
                 </div>
               </section>
 
-              <section>
-                <h2 className="text-base font-semibold tracking-tight text-gray-900">
-                  Jump to Other Categories
-                </h2>
-                <ul className="mt-3 space-y-2 text-sm text-gray-700">
-                  <li>
-                    <Link
-                      href="/script-tools"
-                      className="hover:text-gray-900"
-                    >
-                      Script Tools (writing, story, structure)
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/optimization-tools"
-                      className="hover:text-gray-900"
-                    >
-                      Optimization Tools (titles, thumbnails, tags)
-                    </Link>
-                  </li>
-                </ul>
+              <section className="rounded-xl bg-gray-50 p-3 text-xs text-gray-700">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500">
+                  Other categories
+                </p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  <Link
+                    href="/script-tools"
+                    className="inline-flex items-center rounded-full border border-gray-200 bg-white px-3 py-1 text-[11px] font-medium text-gray-800 transition hover:border-indigo-500 hover:text-indigo-700"
+                  >
+                    Script Tools
+                  </Link>
+                  <Link
+                    href="/optimization-tools"
+                    className="inline-flex items-center rounded-full border border-gray-200 bg-white px-3 py-1 text-[11px] font-medium text-gray-800 transition hover:border-indigo-500 hover:text-indigo-700"
+                  >
+                    Optimization Tools
+                  </Link>
+                </div>
               </section>
             </aside>
           </section>

@@ -117,7 +117,9 @@ export default function YouTubeHookGeneratorPage() {
   return (
     <>
       <Head>
-        <title>YouTube Hook Generator | AI Tools for YouTube Creators</title>
+        <title>
+          YouTube Hook Generator (Free AI Tool for High CTR Videos)
+        </title>
         <meta
           name="description"
           content="Generate attention-grabbing YouTube hooks in seconds. AI-powered hook prompt generator designed to boost click-through rate and retention."

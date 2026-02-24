@@ -96,7 +96,10 @@ export default function EmailMarketingPromptGeneratorPage() {
   return (
     <>
       <Head>
-        <title>Email Marketing Prompt Generator</title>
+        <title>
+          Email Marketing Prompt Generator (AI Tool for Campaigns &amp;
+          Newsletters)
+        </title>
         <meta
           name="description"
           content="Generate email marketing prompts for newsletters and launch sequences. Turn your offer, audience, and goal into a structured prompt for ChatGPT."

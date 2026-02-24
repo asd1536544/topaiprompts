@@ -76,7 +76,7 @@ export default function EducationalYouTubeScriptTemplatePage() {
     <>
       <Head>
         <title>
-          Educational YouTube Script Template | AI Tools for YouTube Creators
+          Educational YouTube Script Template for Lesson-Style Videos
         </title>
         <meta
           name="description"

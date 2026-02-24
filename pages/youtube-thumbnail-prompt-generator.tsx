@@ -76,7 +76,7 @@ export default function YouTubeThumbnailPromptGeneratorPage() {
     <>
       <Head>
         <title>
-          YouTube Thumbnail Prompt Generator | AI Tools for YouTube Creators
+          YouTube Thumbnail Prompt Generator for High-Converting Thumbnails
         </title>
         <meta
           name="description"

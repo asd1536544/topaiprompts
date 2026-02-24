@@ -65,7 +65,7 @@ export default function YouTubeSeoTitleAnalyzerPage() {
     <>
       <Head>
         <title>
-          YouTube SEO Title Analyzer | AI Tools for YouTube Creators
+          YouTube SEO Title Analyzer (Free AI Tool for Better CTR)
         </title>
         <meta
           name="description"

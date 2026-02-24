@@ -65,7 +65,7 @@ export default function YouTubeShortsScriptGeneratorPage() {
     <>
       <Head>
         <title>
-          YouTube Shorts Script Generator | AI Tools for YouTube Creators
+          YouTube Shorts Script Generator – Fast Hooks for Vertical Videos
         </title>
         <meta
           name="description"

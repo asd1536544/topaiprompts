@@ -91,7 +91,9 @@ export default function ChatGptPromptGeneratorPage() {
   return (
     <>
       <Head>
-        <title>ChatGPT Prompt Generator for Creators and Businesses</title>
+        <title>
+          ChatGPT Prompt Generator (Free AI Tool for Content &amp; Marketing)
+        </title>
         <meta
           name="description"
           content="Generate better ChatGPT prompts in seconds. Turn your use case, audience, and goal into a detailed, reusable prompt for content, marketing, or learning."

@@ -74,7 +74,7 @@ export default function StorytellingScriptPromptPage() {
     <>
       <Head>
         <title>
-          Storytelling Script Prompt | AI Tools for YouTube Creators
+          Storytelling Script Prompt for Case Studies &amp; Brand Stories
         </title>
         <meta
           name="description"

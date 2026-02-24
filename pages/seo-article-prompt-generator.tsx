@@ -126,7 +126,9 @@ export default function SeoArticlePromptGeneratorPage() {
   return (
     <>
       <Head>
-        <title>SEO Article Prompt Generator for Long-Form Content</title>
+        <title>
+          SEO Article Prompt Generator (Free AI Tool for Long-Form Content)
+        </title>
         <meta
           name="description"
           content="Generate detailed SEO article prompts for long-form blog posts. Turn your topic, keywords, and intent into a clear brief for ChatGPT or any AI writer."

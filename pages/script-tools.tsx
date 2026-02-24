@@ -5,10 +5,12 @@ export default function ScriptToolsPage() {
   return (
     <>
       <Head>
-        <title>Script Tools for YouTube Creators | AI Tool Hub</title>
+        <title>
+          YouTube Script Tools | Best AI Prompt Generators for Video Scripts
+        </title>
         <meta
           name="description"
-          content="Explore script tools for YouTube: long-form scripts, hooks, outlines, faceless videos, Shorts, and more. Built for creators who want high-retention videos."
+          content="Discover the best YouTube script tools and AI prompt generators for creating video scripts, hooks and outlines. Get step-by-step guidance and examples."
         />
         <meta
           name="keywords"
@@ -22,11 +24,11 @@ export default function ScriptToolsPage() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Script Tools for YouTube Creators | AI Tool Hub"
+          content="YouTube Script Tools | Best AI Prompt Generators for Video Scripts"
         />
         <meta
           property="og:description"
-          content="Browse YouTube script tools for hooks, long-form videos, Shorts, faceless channels, and documentary-style content."
+          content="Discover YouTube script tools and AI prompt generators for video scripts, hooks and outlines, with examples and workflows."
         />
       </Head>
 
@@ -63,7 +65,7 @@ export default function ScriptToolsPage() {
         </header>
 
         <main className="mx-auto max-w-6xl px-4 pb-16 pt-12 lg:px-8 lg:pt-16">
-          <section className="grid gap-12 lg:grid-cols-[1.05fr,0.95fr] lg:items-start">
+          <section className="grid gap-12 rounded-2xl bg-white p-6 shadow-sm ring-1 ring-gray-100 lg:grid-cols-[1.05fr,0.95fr] lg:items-start">
             <article className="prose prose-sm max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-indigo-600 prose-strong:text-gray-900">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-indigo-600">
                 Script Tools
@@ -71,34 +73,111 @@ export default function ScriptToolsPage() {
               <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
                 Script Tools Built for High-Retention YouTube Videos
               </h1>
+              <div className="mt-4 flex flex-wrap items-center gap-2 text-[11px] font-medium text-gray-700">
+                <span className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">
+                  Idea
+                </span>
+                <span className="text-gray-400">→</span>
+                <span className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">
+                  Hook
+                </span>
+                <span className="text-gray-400">→</span>
+                <span className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">
+                  Script
+                </span>
+                <span className="text-gray-400">→</span>
+                <span className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">
+                  Outline
+                </span>
+                <span className="text-gray-400">→</span>
+                <span className="rounded-full bg-indigo-50 px-3 py-1 text-indigo-700">
+                  Final prompt
+                </span>
+              </div>
+              <div className="mt-4 grid gap-3 text-xs text-gray-700 sm:grid-cols-3">
+                <div className="rounded-lg bg-indigo-50/60 px-3 py-2">
+                  <p className="font-semibold text-indigo-800">Who it is for</p>
+                  <p className="mt-1 text-[11px] text-indigo-900">
+                    Creators and teams who write scripts every week.
+                  </p>
+                </div>
+                <div className="rounded-lg bg-gray-50 px-3 py-2">
+                  <p className="font-semibold text-gray-900">When to use</p>
+                  <p className="mt-1 text-[11px] text-gray-700">
+                    When you want consistent, high-retention scripts instead of
+                    one-off hits.
+                  </p>
+                </div>
+                <div className="rounded-lg bg-gray-50 px-3 py-2">
+                  <p className="font-semibold text-gray-900">What you get</p>
+                  <p className="mt-1 text-[11px] text-gray-700">
+                    Clear prompts, outlines, and formats you can reuse across
+                    videos.
+                  </p>
+                </div>
+              </div>
+
+              <p className="mt-6">
+                YouTube script tools in this hub are AI-powered prompt
+                generators that help you write video scripts, outlines, hooks,
+                and more, faster and with less guesswork. Below you will find
+                the best tools for every stage of the scripting process, from
+                first idea to a ready-to-use prompt you can paste into ChatGPT
+                or Claude.
+              </p>
+
+              <h2>What These Script Tools Help You Do</h2>
               <p>
                 Great YouTube channels are built on repeatable scripts, not
                 one-off inspiration. This section collects every tool in the hub
-                that helps you shape words on the page: from the{" "}
-                <Link href="/youtube-script-prompt-generator">
-                  YouTube Script Prompt Generator
-                </Link>{" "}
-                that turns rough ideas into detailed prompts, to the{" "}
-                <Link href="/youtube-hook-generator">Hook Generator</Link>{" "}
-                that sharpens your first three seconds.
+                that helps you shape words on the page.
               </p>
+              <ul>
+                <li>
+                  Use the{" "}
+                  <Link href="/youtube-script-prompt-generator">
+                    YouTube Script Prompt Generator
+                  </Link>{" "}
+                  to turn rough ideas into detailed long-form prompts.
+                </li>
+                <li>
+                  Sharpen your first three seconds with the{" "}
+                  <Link href="/youtube-hook-generator">Hook Generator</Link>.
+                </li>
+                <li>
+                  Plan structure before writing with the{" "}
+                  <Link href="/youtube-script-outline-generator">
+                    Script Outline Generator
+                  </Link>
+                  .
+                </li>
+              </ul>
+
+              <h2>How to Use This Page in Your Workflow</h2>
               <p>
-                You can treat this page as a “writing room” for your channel.
-                Start with a raw idea, then move through tools that specialise
-                in different parts of the script. Use{" "}
-                <Link href="/youtube-script-outline-generator">
-                  Script Outline
-                </Link>{" "}
-                when you want structure before words,{" "}
-                <Link href="/educational-youtube-script-template">
-                  Educational Script Templates
-                </Link>{" "}
-                when you are teaching, and{" "}
-                <Link href="/storytelling-script-prompt">
-                  Storytelling Script Prompts
-                </Link>{" "}
-                when you are turning experience into narrative.
+                Treat this page as a “writing room” for your channel. Start with
+                a raw idea, then move through tools that specialise in different
+                parts of the script.
               </p>
+              <ol>
+                <li>
+                  Start with{" "}
+                  <Link href="/youtube-video-idea-generator">
+                    Video Idea Generator
+                  </Link>{" "}
+                  if you are still mapping your content calendar.
+                </li>
+                <li>
+                  Turn chosen ideas into detailed prompts with the script
+                  generator.
+                </li>
+                <li>
+                  Use outline and template tools when you need more structure or
+                  repeatable formats.
+                </li>
+              </ol>
+
+              <h2>Script Tools for Different Channel Types</h2>
               <p>
                 If you run faceless or automation channels, you have slightly
                 different problems: keeping videos human without being on
@@ -137,6 +216,12 @@ export default function ScriptToolsPage() {
                 The goal is the same across every tool on this page: make
                 scripts easier to start, faster to iterate, and more consistent
                 across your channel.
+              </p>
+              <p className="mt-4 text-sm text-gray-700">
+                A simple way to move through these tools is to follow a script
+                workflow: idea → hook → script → outline → final prompt. Pick
+                one stage to improve first instead of trying to fix everything
+                at once.
               </p>
             </article>
 
@@ -302,28 +387,24 @@ export default function ScriptToolsPage() {
                 </div>
               </section>
 
-              <section>
-                <h2 className="text-base font-semibold tracking-tight text-gray-900">
-                  Jump to Other Categories
-                </h2>
-                <ul className="mt-3 space-y-2 text-sm text-gray-700">
-                  <li>
-                    <Link
-                      href="/optimization-tools"
-                      className="hover:text-gray-900"
-                    >
-                      Optimization Tools (titles, thumbnails, tags)
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/growth-tools"
-                      className="hover:text-gray-900"
-                    >
-                      Growth Tools (ideas, systems, distribution)
-                    </Link>
-                  </li>
-                </ul>
+              <section className="rounded-xl bg-gray-50 p-3 text-xs text-gray-700">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500">
+                  Other categories
+                </p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  <Link
+                    href="/optimization-tools"
+                    className="inline-flex items-center rounded-full border border-gray-200 bg-white px-3 py-1 text-[11px] font-medium text-gray-800 transition hover:border-indigo-500 hover:text-indigo-700"
+                  >
+                    Optimization Tools
+                  </Link>
+                  <Link
+                    href="/growth-tools"
+                    className="inline-flex items-center rounded-full border border-gray-200 bg-white px-3 py-1 text-[11px] font-medium text-gray-800 transition hover:border-indigo-500 hover:text-indigo-700"
+                  >
+                    Growth Tools
+                  </Link>
+                </div>
               </section>
             </aside>
           </section>

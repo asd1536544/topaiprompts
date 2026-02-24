@@ -77,7 +77,7 @@ export default function YouTubeScriptOutlineGeneratorPage() {
     <>
       <Head>
         <title>
-          YouTube Script Outline Generator | AI Tools for YouTube Creators
+          YouTube Script Outline Generator – Plan High-Retention Videos
         </title>
         <meta
           name="description"

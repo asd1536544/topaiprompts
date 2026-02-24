@@ -112,7 +112,7 @@ export default function BlogPostOutlinePromptGeneratorPage() {
   return (
     <>
       <Head>
-        <title>Blog Post Outline Prompt Generator</title>
+        <title>Blog Post Outline Prompt Generator for SEO Content</title>
         <meta
           name="description"
           content="Generate structured blog post outline prompts for ChatGPT. Turn your topic, audience, and intent into a clear outline brief for long-form posts."

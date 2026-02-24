@@ -128,11 +128,11 @@ export default function YouTubeScriptPromptGeneratorPage() {
     <>
       <Head>
         <title>
-          YC · YouTube Script Prompt Generator | AI Tools for YouTube Creators
+          Free YouTube Script Prompt Generator – Create Viral Video Scripts Fast
         </title>
         <meta
           name="description"
-          content="Generate high-converting YouTube script prompts in seconds. AI-powered prompt generator designed for creators who want to write better scripts faster."
+          content="Use the free YouTube Script Prompt Generator to instantly create high-retention video scripts. Enter your topic and audience to generate ready-to-use prompts for AI."
         />
         <meta
           name="keywords"
@@ -146,11 +146,11 @@ export default function YouTubeScriptPromptGeneratorPage() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="YC · YouTube Script Prompt Generator for Creators"
+          content="Free YouTube Script Prompt Generator for Creators"
         />
         <meta
           property="og:description"
-          content="Use this free AI prompt generator to create detailed prompts for YouTube scripts, hooks, titles, and more."
+          content="Instantly create high-retention YouTube video scripts with this free AI prompt generator. Just enter your topic and audience."
         />
       </Head>
 

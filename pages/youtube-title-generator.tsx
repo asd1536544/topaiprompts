@@ -133,7 +133,7 @@ export default function YouTubeTitleGeneratorPage() {
   return (
     <>
       <Head>
-        <title>YouTube Title Generator | AI Tools for YouTube Creators</title>
+        <title>YouTube Title Generator – Create Click-Worthy Titles Fast</title>
         <meta
           name="description"
           content="Generate high-converting YouTube titles in seconds. AI-powered title prompt generator designed to increase click-through rate and search performance."

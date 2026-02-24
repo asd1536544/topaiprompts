@@ -58,7 +58,7 @@ export default function YouTubeTagsGeneratorPage() {
   return (
     <>
       <Head>
-        <title>YouTube Tags Generator | AI Tools for YouTube Creators</title>
+        <title>YouTube Tags Generator – Boost Your Video Rankings</title>
         <meta
           name="description"
           content="Generate SEO-friendly YouTube tags and hashtags in seconds. Use this free AI prompt generator to create keyword-rich tags for your videos."

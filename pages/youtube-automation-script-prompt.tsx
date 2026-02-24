@@ -80,7 +80,7 @@ export default function YouTubeAutomationScriptPromptPage() {
     <>
       <Head>
         <title>
-          YouTube Automation Script Prompt | AI Tools for YouTube Creators
+          YouTube Automation Script Prompt for Faceless Cash-Cow Channels
         </title>
         <meta
           name="description"

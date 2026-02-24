@@ -132,9 +132,7 @@ export default function YouTubeDescriptionGeneratorPage() {
   return (
     <>
       <Head>
-        <title>
-          YouTube Description Generator | AI Tools for YouTube Creators
-        </title>
+        <title>YouTube Description Generator (SEO-Optimized AI Tool)</title>
         <meta
           name="description"
           content="Generate SEO-friendly YouTube descriptions in seconds. AI-powered description prompt generator designed to increase watch time, clicks, and conversions."

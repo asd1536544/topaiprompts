@@ -132,7 +132,9 @@ export default function SalesCopyPromptGeneratorPage() {
   return (
     <>
       <Head>
-        <title>Sales Copy Prompt Generator</title>
+        <title>
+          Sales Copy Prompt Generator (AI Tool for High-Converting Copy)
+        </title>
         <meta
           name="description"
           content="Generate sales copy prompts for long-form pages, landing pages, and VSLs. Turn your offer and audience into a structured brief for ChatGPT."

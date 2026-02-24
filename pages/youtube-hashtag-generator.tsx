@@ -60,9 +60,7 @@ export default function YouTubeHashtagGeneratorPage() {
   return (
     <>
       <Head>
-        <title>
-          YouTube Hashtag Generator | AI Tools for YouTube Creators
-        </title>
+        <title>YouTube Hashtag Generator – Build Hashtag Sets That Rank</title>
         <meta
           name="description"
           content="Generate effective YouTube hashtags in seconds. Use this free AI prompt builder to create hashtag sets that support discovery across YouTube and other platforms."

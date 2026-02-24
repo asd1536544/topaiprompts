@@ -76,7 +76,7 @@ export default function DocumentaryScriptPromptPage() {
     <>
       <Head>
         <title>
-          Documentary Script Prompt | AI Tools for YouTube Creators
+          Documentary Script Prompt – Plan Narrative YouTube Documentaries
         </title>
         <meta
           name="description"

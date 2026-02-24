@@ -76,7 +76,7 @@ export default function YouTubeVideoIdeaGeneratorPage() {
     <>
       <Head>
         <title>
-          YouTube Video Idea Generator | AI Tools for YouTube Creators
+          YouTube Video Idea Generator – Never Run Out of Video Topics
         </title>
         <meta
           name="description"

@@ -78,7 +78,7 @@ export default function FacelessYouTubeScriptPromptPage() {
     <>
       <Head>
         <title>
-          Faceless YouTube Script Prompt | AI Tools for YouTube Creators
+          Faceless YouTube Script Prompt – AI Tool for No-Face Channels
         </title>
         <meta
           name="description"
