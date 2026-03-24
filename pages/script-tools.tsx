@@ -14,7 +14,7 @@ export default function ScriptToolsPage() {
         />
         <meta
           name="keywords"
-          content="YouTube script tools, script prompt generator, faceless YouTube script, Shorts script, documentary script"
+          content="YouTube script tools, AI script generator, YouTube script prompt generator, faceless YouTube script, YouTube Shorts script, documentary script, storytelling script, educational video script"
         />
         <meta name="robots" content="index,follow" />
         <link
@@ -44,7 +44,7 @@ export default function ScriptToolsPage() {
               </div>
             </div>
             <nav className="hidden gap-6 text-sm text-gray-600 md:flex">
-              <Link href="/" className="text-gray-500 hover:text-gray-900">
+              <Link href="/" className="font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full hover:text-indigo-700 hover:bg-indigo-100 transition-colors duration-200">
                 Home
               </Link>
               <span className="font-semibold text-gray-900">Script Tools</span>
@@ -65,7 +65,7 @@ export default function ScriptToolsPage() {
         </header>
 
         <main className="mx-auto max-w-6xl px-4 pb-16 pt-12 lg:px-8 lg:pt-16">
-          <section className="grid gap-12 rounded-2xl bg-white p-6 shadow-sm ring-1 ring-gray-100 lg:grid-cols-[1.05fr,0.95fr] lg:items-start">
+          <section className="grid gap-12 rounded-2xl bg-white p-8 shadow-md ring-1 ring-gray-100 hover:ring-gray-200 transition-all duration-200 lg:grid-cols-[1.05fr,0.95fr] lg:items-start">
             <article className="prose prose-sm max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-indigo-600 prose-strong:text-gray-900">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-indigo-600">
                 Script Tools
@@ -237,7 +237,7 @@ export default function ScriptToolsPage() {
                 <div className="mt-4 grid gap-3 sm:grid-cols-2">
                   <Link
                     href="/youtube-script-prompt-generator"
-                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-4 text-sm shadow-sm transition-all duration-200 hover:border-indigo-500 hover:shadow-lg hover:-translate-y-0.5"
                   >
                     <div>
                       <p className="text-sm font-semibold text-gray-900">
@@ -254,7 +254,7 @@ export default function ScriptToolsPage() {
                   </Link>
                   <Link
                     href="/youtube-hook-generator"
-                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-4 text-sm shadow-sm transition-all duration-200 hover:border-indigo-500 hover:shadow-lg hover:-translate-y-0.5"
                   >
                     <div>
                       <p className="text-sm font-semibold text-gray-900">
@@ -270,7 +270,7 @@ export default function ScriptToolsPage() {
                   </Link>
                   <Link
                     href="/youtube-script-outline-generator"
-                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-4 text-sm shadow-sm transition-all duration-200 hover:border-indigo-500 hover:shadow-lg hover:-translate-y-0.5"
                   >
                     <div>
                       <p className="text-sm font-semibold text-gray-900">
@@ -287,7 +287,7 @@ export default function ScriptToolsPage() {
                   </Link>
                   <Link
                     href="/faceless-youtube-script-prompt"
-                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-4 text-sm shadow-sm transition-all duration-200 hover:border-indigo-500 hover:shadow-lg hover:-translate-y-0.5"
                   >
                     <div>
                       <p className="text-sm font-semibold text-gray-900">
@@ -304,7 +304,7 @@ export default function ScriptToolsPage() {
                   </Link>
                   <Link
                     href="/youtube-shorts-script-generator"
-                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-4 text-sm shadow-sm transition-all duration-200 hover:border-indigo-500 hover:shadow-lg hover:-translate-y-0.5"
                   >
                     <div>
                       <p className="text-sm font-semibold text-gray-900">
@@ -320,7 +320,7 @@ export default function ScriptToolsPage() {
                   </Link>
                   <Link
                     href="/youtube-automation-script-prompt"
-                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-4 text-sm shadow-sm transition-all duration-200 hover:border-indigo-500 hover:shadow-lg hover:-translate-y-0.5"
                   >
                     <div>
                       <p className="text-sm font-semibold text-gray-900">
@@ -336,7 +336,7 @@ export default function ScriptToolsPage() {
                   </Link>
                   <Link
                     href="/educational-youtube-script-template"
-                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-4 text-sm shadow-sm transition-all duration-200 hover:border-indigo-500 hover:shadow-lg hover:-translate-y-0.5"
                   >
                     <div>
                       <p className="text-sm font-semibold text-gray-900">
@@ -352,7 +352,7 @@ export default function ScriptToolsPage() {
                   </Link>
                   <Link
                     href="/storytelling-script-prompt"
-                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-4 text-sm shadow-sm transition-all duration-200 hover:border-indigo-500 hover:shadow-lg hover:-translate-y-0.5"
                   >
                     <div>
                       <p className="text-sm font-semibold text-gray-900">
@@ -369,7 +369,7 @@ export default function ScriptToolsPage() {
                   </Link>
                   <Link
                     href="/documentary-script-prompt"
-                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+                    className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-4 text-sm shadow-sm transition-all duration-200 hover:border-indigo-500 hover:shadow-lg hover:-translate-y-0.5"
                   >
                     <div>
                       <p className="text-sm font-semibold text-gray-900">

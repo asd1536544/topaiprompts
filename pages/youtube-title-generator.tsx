@@ -133,14 +133,14 @@ export default function YouTubeTitleGeneratorPage() {
   return (
     <>
       <Head>
-        <title>YouTube Title Generator – Create Click-Worthy Titles Fast</title>
+        <title>YouTube SEO Title Generator – AI-Powered Click-Worthy Title Prompts</title>
         <meta
           name="description"
-          content="Generate high-converting YouTube titles in seconds. AI-powered title prompt generator designed to increase click-through rate and search performance."
+          content="Free YouTube SEO title generator for creating click-worthy titles. AI-powered title prompt generator to boost CTR and search rankings for your videos."
         />
         <meta
           name="keywords"
-          content="YouTube title generator, AI YouTube titles, YouTube SEO title, YouTube headline generator"
+          content="YouTube SEO title generator, AI YouTube title prompt generator, click-worthy YouTube titles, YouTube headline generator"
         />
         <meta name="robots" content="index,follow" />
         <link
@@ -170,7 +170,7 @@ export default function YouTubeTitleGeneratorPage() {
               </div>
             </div>
             <nav className="hidden gap-6 text-sm text-gray-600 md:flex">
-              <Link href="/" className="text-gray-500 hover:text-gray-900">
+              <Link href="/" className="font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full hover:text-indigo-700 hover:bg-indigo-100 transition-colors duration-200">
                 Home
               </Link>
               <Link
@@ -202,13 +202,13 @@ export default function YouTubeTitleGeneratorPage() {
                 YouTube Title Generator
               </p>
               <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-                Generate Titles That Viewers Want to Click
+                YouTube SEO Title Generator – Generate Click-Worthy Titles
               </h1>
               <p className="mt-4 max-w-xl text-sm leading-relaxed text-gray-600 sm:text-base">
                 Instead of staring at a blank headline, turn your video idea into
-                20 data-informed title angles. This prompt builder helps AI write
+                20 data-informed title angles. This YouTube SEO title generator helps AI write
                 titles that respect your brand while maximizing click-through
-                rate.
+                rate and search visibility.
               </p>
               <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-600 sm:text-base">
                 For the strongest results, pair this page with the{" "}
@@ -257,7 +257,7 @@ export default function YouTubeTitleGeneratorPage() {
 
             <div
               id="generator"
-              className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-gray-100"
+              className="rounded-2xl bg-white p-6 shadow-md ring-1 ring-gray-100 hover:ring-gray-200 transition-all duration-200"
             >
               <h2 className="text-sm font-semibold tracking-tight text-gray-900">
                 Title Prompt Builder
@@ -267,7 +267,7 @@ export default function YouTubeTitleGeneratorPage() {
                 into any AI model.
               </p>
 
-              <div className="mt-4 space-y-4">
+              <div className="mt-5 space-y-4">
                 <div className="space-y-1.5">
                   <label className="text-xs font-medium text-gray-700">
                     Video topic
@@ -277,7 +277,7 @@ export default function YouTubeTitleGeneratorPage() {
                     placeholder="e.g. How to turn your YouTube channel into a full-time income"
                     value={topic}
                     onChange={(e) => setTopic(e.target.value)}
-                    className="block w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+                    className="block w-full rounded-md border border-gray-200 bg-white px-3 py-2.5 text-sm text-gray-900 shadow-sm outline-none transition-all duration-200 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 hover:border-gray-300"
                   />
                 </div>
 
@@ -290,7 +290,7 @@ export default function YouTubeTitleGeneratorPage() {
                     placeholder="e.g. make money on YouTube, YouTube automation, faceless channel"
                     value={mainKeyword}
                     onChange={(e) => setMainKeyword(e.target.value)}
-                    className="block w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+                    className="block w-full rounded-md border border-gray-200 bg-white px-3 py-2.5 text-sm text-gray-900 shadow-sm outline-none transition-all duration-200 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 hover:border-gray-300"
                   />
                 </div>
 
@@ -301,7 +301,7 @@ export default function YouTubeTitleGeneratorPage() {
                   <select
                     value={videoType}
                     onChange={(e) => setVideoType(e.target.value)}
-                    className="block w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm outline-none ring-0 transition focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+                    className="block w-full rounded-md border border-gray-200 bg-white px-3 py-2.5 text-sm text-gray-900 shadow-sm outline-none ring-0 transition-all duration-200 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 hover:border-gray-300"
                   >
                     {VIDEO_TYPES.map((type) => (
                       <option key={type} value={type}>
@@ -321,10 +321,9 @@ export default function YouTubeTitleGeneratorPage() {
                         key={t}
                         type="button"
                         onClick={() => setTone(t)}
-                        className={`rounded-md border px-2.5 py-1.5 text-center ${
-                          tone === t
-                            ? "border-indigo-500 bg-indigo-50 text-indigo-700"
-                            : "border-gray-200 bg-white text-gray-700 hover:border-gray-300"
+                        className={`rounded-md border px-3 py-2 text-center transition-all duration-200 ${tone === t
+                          ? "border-indigo-500 bg-indigo-50 text-indigo-700 shadow-sm"
+                          : "border-gray-200 bg-white text-gray-700 hover:border-gray-300 hover:bg-gray-50"
                         }`}
                       >
                         {t}
@@ -342,7 +341,7 @@ export default function YouTubeTitleGeneratorPage() {
                     placeholder="e.g. creators stuck between 1k and 10k subscribers"
                     value={audience}
                     onChange={(e) => setAudience(e.target.value)}
-                    className="block w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+                    className="block w-full rounded-md border border-gray-200 bg-white px-3 py-2.5 text-sm text-gray-900 shadow-sm outline-none transition-all duration-200 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 hover:border-gray-300"
                   />
                 </div>
 
@@ -353,7 +352,7 @@ export default function YouTubeTitleGeneratorPage() {
                   <select
                     value={goal}
                     onChange={(e) => setGoal(e.target.value)}
-                    className="block w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm outline-none ring-0 transition focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+                    className="block w-full rounded-md border border-gray-200 bg-white px-3 py-2.5 text-sm text-gray-900 shadow-sm outline-none ring-0 transition-all duration-200 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 hover:border-gray-300"
                   >
                     {GOALS.map((g) => (
                       <option key={g} value={g}>
@@ -364,7 +363,7 @@ export default function YouTubeTitleGeneratorPage() {
                 </div>
               </div>
 
-              <div className="mt-5 space-y-2">
+              <div className="mt-6 space-y-3">
                 <div className="flex items-center justify-between gap-2">
                   <p className="text-xs font-medium text-gray-700">
                     Generated prompt
@@ -372,15 +371,15 @@ export default function YouTubeTitleGeneratorPage() {
                   <button
                     type="button"
                     onClick={handleCopy}
-                    className="inline-flex items-center rounded-md bg-indigo-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition hover:bg-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
+                    className="inline-flex items-center gap-1.5 rounded-md bg-indigo-600 px-4 py-2 text-xs font-semibold text-white shadow-md transition-all duration-200 hover:bg-indigo-500 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 active:translate-y-0.5"
                   >
-                    {copied ? "Copied" : "Copy prompt"}
+                    {copied ? "Copied ✅" : "Copy prompt"}
                   </button>
                 </div>
                 <textarea
                   readOnly
                   value={prompt}
-                  className="h-52 w-full resize-none rounded-md border border-gray-200 bg-white px-3 py-2 text-xs font-mono leading-relaxed text-gray-800 shadow-inner outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+                  className="h-64 w-full resize-none rounded-md border border-gray-200 bg-gray-50 px-3 py-2.5 text-xs font-mono leading-relaxed text-gray-800 shadow-inner outline-none transition-all duration-200 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 hover:border-gray-300"
                 />
                 <p className="text-[11px] text-gray-500">
                   Paste this into ChatGPT, Claude, or your favorite AI model to

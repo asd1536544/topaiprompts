@@ -92,15 +92,15 @@ export default function ChatGptPromptGeneratorPage() {
     <>
       <Head>
         <title>
-          ChatGPT Prompt Generator (Free AI Tool for Content &amp; Marketing)
+          ChatGPT Prompt Generator for Content Creators – Free AI Tool
         </title>
         <meta
           name="description"
-          content="Generate better ChatGPT prompts in seconds. Turn your use case, audience, and goal into a detailed, reusable prompt for content, marketing, or learning."
+          content="Free ChatGPT prompt generator for content creators and marketers. Generate scenario-based prompts for YouTube, blogs, marketing, and learning with optimized structure."
         />
         <meta
           name="keywords"
-          content="ChatGPT prompt generator, AI prompt generator, prompts for creators, prompts for business, prompts for marketing"
+          content="ChatGPT prompt generator for content creators, AI prompt generator for marketing, YouTube prompt generator, blog prompt generator"
         />
         <meta name="robots" content="index,follow" />
         <link
@@ -130,7 +130,7 @@ export default function ChatGptPromptGeneratorPage() {
               </div>
             </div>
             <nav className="hidden gap-6 text-sm text-gray-600 md:flex">
-              <Link href="/" className="text-gray-500 hover:text-gray-900">
+              <Link href="/" className="font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full hover:text-indigo-700 hover:bg-indigo-100 transition-colors duration-200">
                 Home
               </Link>
               <Link
@@ -162,12 +162,12 @@ export default function ChatGptPromptGeneratorPage() {
                 ChatGPT Prompt Generator
               </p>
               <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-                ChatGPT Prompt Generator for Real-World Use Cases
+                ChatGPT Prompt Generator for Content Creators &amp; Marketers
               </h1>
               <p className="mt-4 max-w-xl text-sm leading-relaxed text-gray-600 sm:text-base">
                 Instead of typing “write me a blog post about X” and hoping for
-                the best, use this builder to turn your use case, audience, and
-                goal into a clear, reusable ChatGPT prompt.
+                the best, content creators and marketers can use this builder to turn their use case, audience, and
+                goal into a clear, reusable ChatGPT prompt tailored for their specific needs.
               </p>
               <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-600 sm:text-base">
                 If you are focused on YouTube, you can move from this general

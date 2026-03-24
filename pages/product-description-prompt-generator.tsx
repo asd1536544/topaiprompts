@@ -161,7 +161,7 @@ export default function ProductDescriptionPromptGeneratorPage() {
               </div>
             </div>
             <nav className="hidden gap-6 text-sm text-gray-600 md:flex">
-              <Link href="/" className="text-gray-500 hover:text-gray-900">
+              <Link href="/" className="font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full hover:text-indigo-700 hover:bg-indigo-100 transition-colors duration-200">
                 Home
               </Link>
               <Link

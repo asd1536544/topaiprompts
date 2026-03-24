@@ -118,15 +118,15 @@ export default function YouTubeHookGeneratorPage() {
     <>
       <Head>
         <title>
-          YouTube Hook Generator (Free AI Tool for High CTR Videos)
+          YouTube Hook Generator for High Retention – Free AI Intro Hook Tool
         </title>
         <meta
           name="description"
-          content="Generate attention-grabbing YouTube hooks in seconds. AI-powered hook prompt generator designed to boost click-through rate and retention."
+          content="Generate attention-grabbing YouTube intro hooks for high retention. Free AI-powered hook prompt generator designed to boost click-through rate and keep viewers watching."
         />
         <meta
           name="keywords"
-          content="YouTube hook generator, YouTube intro hook, AI hooks for YouTube, YouTube script hook"
+          content="YouTube hook generator for high retention, AI YouTube intro hook generator, YouTube attention hooks, YouTube script hook generator"
         />
         <meta name="robots" content="index,follow" />
         <link
@@ -156,10 +156,7 @@ export default function YouTubeHookGeneratorPage() {
               </div>
             </div>
             <nav className="hidden gap-6 text-sm text-gray-600 md:flex">
-              <Link
-                href="/"
-                className="text-gray-500 hover:text-gray-900"
-              >
+              <Link href="/" className="font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full hover:text-indigo-700 hover:bg-indigo-100 transition-colors duration-200">
                 Home
               </Link>
               <Link
@@ -191,7 +188,7 @@ export default function YouTubeHookGeneratorPage() {
                 YouTube Hook Generator
               </p>
               <h1 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-                Craft Hooks That Stop the Scroll in 3 Seconds
+                YouTube Hook Generator for High Retention – Stop the Scroll in 3 Seconds
               </h1>
               <p className="mt-4 max-w-xl text-sm leading-relaxed text-gray-600 sm:text-base">
                 Turn your video idea into a list of high-impact YouTube hooks.

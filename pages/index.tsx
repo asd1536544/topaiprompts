@@ -12,7 +12,7 @@ export default function HomePage() {
         />
         <meta
           name="keywords"
-          content="AI prompt generator hub, ChatGPT prompts, YouTube script prompt generator, Midjourney prompt templates, marketing prompts"
+          content="AI prompt generator, AI prompt generator hub, free AI prompts, ChatGPT prompts, YouTube script generator, YouTube prompt generator, SEO prompts, marketing prompts, Midjourney prompts"
         />
         <meta name="robots" content="index,follow" />
         <link rel="canonical" href="https://topaiprompts.top/" />
@@ -39,7 +39,7 @@ export default function HomePage() {
               </div>
             </div>
             <nav className="hidden gap-6 text-sm text-gray-600 md:flex">
-              <span className="font-semibold text-gray-900">Home</span>
+              <span className="font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full">Home</span>
               <Link
                 href="/script-tools"
                 className="text-gray-500 hover:text-gray-900"
@@ -443,6 +443,44 @@ download the free Notion content calendar template.`}
               descriptions, tags, and hashtags all work together.
             </p>
             <div className="mt-4 grid gap-4 sm:grid-cols-2 md:gridCols-3 lg:grid-cols-4">
+              <Link
+                href="/youtube-content-creation-guide"
+                className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+              >
+                <div>
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-indigo-600">
+                    Guides
+                  </p>
+                  <p className="mt-1 text-sm font-semibold text-gray-900">
+                    YouTube Content Creation Guide
+                  </p>
+                  <p className="mt-1 text-xs text-gray-600">
+                    Complete guide with tools for idea generation, script writing, titles, and more.
+                  </p>
+                </div>
+                <span className="mt-2 inline-flex items-center text-[11px] font-medium text-indigo-600">
+                  Read guide
+                </span>
+              </Link>
+              <Link
+                href="/seo-writing-guide"
+                className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
+              >
+                <div>
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-indigo-600">
+                    Guides
+                  </p>
+                  <p className="mt-1 text-sm font-semibold text-gray-900">
+                    SEO Writing Guide
+                  </p>
+                  <p className="mt-1 text-xs text-gray-600">
+                    Learn how to write SEO-friendly content that ranks high on search engines.
+                  </p>
+                </div>
+                <span className="mt-2 inline-flex items-center text-[11px] font-medium text-indigo-600">
+                  Read guide
+                </span>
+              </Link>
               <Link
                 href="/chatgpt-prompt-generator"
                 className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-3 text-sm shadow-sm transition hover:border-indigo-500 hover:shadow-md"
